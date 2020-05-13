@@ -11,7 +11,7 @@ def help():
 
 clr()
 def main():
-    minp = str(input('HCOMPILER: '))
+    minp = input('HCOMPILER: ')
     num = len(minp)
     numa = num - 3
     inp1 = minp[0:5]
